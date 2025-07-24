@@ -1,54 +1,61 @@
 import React from "react";
+import royal from "../assets/royal.jpg";
+import pizza from "../assets/pizza.jpg";
+import ninja from "../assets/ninja.jpeg";
+import master from "../assets/master.jpg";
+import japanese from "../assets/japanese.jpg";
+import kobe from "../assets/kobe.jpg";
+import basket from "../assets/basket.png";
 import "../styles/Restaurant.css";
 
 function Restaurant() {
   const restaurants = [
     {
       name: "Royal Sushi House",
-      image: "/src/assets/royal.jpg",
+      image: royal,
       time: "🕐 30 - 40 min • $32 min sum",
       category: "🥓 Sushi",
-      basket: "/src/assets/basket.png",
+      basket:  basket,
       id: 1,
     },
     {
       name: "Buggers & Pizza",
-      image: "/src/assets/pizza.jpg",
+      image: pizza,
       time: "🕐 40 - 60 min • $24 min sum",
       category: ["🍔 Bugger", "🍕 Pizza"],
-      basket: "/src/assets/basket.png",
+      basket:  basket,
       id: 2,
     },
     {
       name: "Ninja Sushi",
-      image: "/src/assets/ninja.jpeg",
+      image: ninja,
       time: "🕐 20 - 40 min • $40 min sum",
       category: "🥓 Sushi",
-      basket: "/src/assets/basket.png",
+      basket:  basket,
       id: 3,
     },
     {
       name: "Sushi master",
-      image: "/src/assets/master.jpg",
+      image: master,
       time: "🕐 60 - 70 min • $49 min sum",
       category: "🥓 Sushi",
-      basket: "/src/assets/basket.png",
+      basket:  basket,
       id: 4,
     },
     {
       name: "Japanese Sushi",
-      image: "/src/assets/japanese.jpg",
+      image: japanese,
       time: "🕐 30 - 50 min • $104 min sum",
       category: "🥓 Sushi",
-      basket: "/src/assets/basket.png",
+      basket:  basket,
       id: 5,
     },
     {
       name: "Kobe",
-      image: "/src/assets/kobe.jpg",
+      image: kobe,
       time: "🕐 20 - 30 min • $57 min sum",
       category: "🥓 Sushi",
-      basket: "/src/assets/basket.png",
+      basket: basket,
       id: 6,
     },
   ];
