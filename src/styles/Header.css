@@ -1,0 +1,109 @@
+.header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.logo {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.logo span {
+  color: #484fe4;
+}
+
+.search-form input {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  width: 200px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-form input:focus {
+  border-color: #4894fe;
+  box-shadow: 0 0 0 2px rgba(72, 148, 254, 0.2);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.5rem;
+}
+
+.nav-list h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  color: #444;
+}
+
+.nav-list h3:hover {
+  color: #4894fe;
+}
+
+.nav-list img {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.nav-list img:hover {
+  transform: scale(1.2);
+  background-color: #2ac5ca;
+}
+
+.basket-container {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-color: azure;
+}
+
+.basket-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #3b5fff;
+  color: wheat;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  line-height: 1;
+  min-width: 18px;
+  text-align: center;
+}

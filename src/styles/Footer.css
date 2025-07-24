@@ -1,0 +1,56 @@
+.footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: #eee;
+  padding: 40px 20px 30px;
+  margin-top: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.footer-heading {
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  margin: 6px 0;
+  color: #ccc;
+}
+
+.footer-links {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}

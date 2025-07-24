@@ -1,0 +1,9 @@
+body {
+  margin: auto;
+  max-width: 1000%;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
