@@ -1,5 +1,7 @@
 import React from "react";
-import "../styles/Header.css"
+import basket from "../assets/basket.png";
+import pic from "../assets/nav.jpeg";
+import "../styles/Header.css";
 
 function Header() {
   return (
@@ -20,10 +22,10 @@ function Header() {
           <h3>Deals</h3>
           <h3>My orders</h3>
           <div className="basket-container">
-            <img src="/src/assets/basket.png" alt="Basket" />
+            <img src={basket} alt="Basket" />
             <span className="count">4</span>
           </div>
-          <img src="/src/assets/nav.jpeg" />
+          <img src={pic} alt="Icon Photo" />
         </div>
       </navbar>
     </header>
