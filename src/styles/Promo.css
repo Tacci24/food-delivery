@@ -1,72 +1,72 @@
 .main {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 30px;
+  margin-top: 1rem;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
 }
 
 .promo-card {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: background 0.3s ease;
-    cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s ease;
+  cursor: pointer;
 }
 
 .promo-card:hover {
-    background-color: #a8ad79;
+  background-color: #a8ad79;
 }
 
 .promo-card img {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 
 .promo-card h2 {
-    margin: 0;
-    font-size: 20px;
+  margin: 0;
+  font-size: 20px;
 }
 
 .promo-card p {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 5px 0 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0 20px 0;
 }
 
 .promo-card h3 {
-    font-size: 12px;
-    margin-bottom: 0;
-    font-weight: lighter;
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: lighter;
 }
 
 .mini {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 .bottom {
-    margin-top: 30px;
-    color: gray;
+  margin-top: 30px;
+  color: gray;
 }
 
 .blue {
-    background-color: #e0f0ff;
+  background-color: #e0f0ff;
 }
 
 .blue p {
-    color: #0077cc;
+  color: #0077cc;
 }
 
 .orange {
-    background-color: #ffe7d4;
-    
+  background-color: #ffe7d4;
 }
 
 .orange p {
-    color: #ff6b00;
+  color: #ff6b00;
 }

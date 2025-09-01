@@ -10,7 +10,7 @@
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
   gap: 20px;
 }
